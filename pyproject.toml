@@ -1,0 +1,16 @@
+[project]
+name = "poker"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "more-itertools>=11.2",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4",
+]
+
+[tool.uv]
+package = false
